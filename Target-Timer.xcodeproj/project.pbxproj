@@ -101,14 +101,9 @@
 		CC861AA61BE519A400597AF5 /* Target-Timer */ = {
 			isa = PBXGroup;
 			children = (
-				CC861AAA1BE519A400597AF5 /* AppDelegate.h */,
-				CC861AAB1BE519A400597AF5 /* AppDelegate.m */,
-				CC861AAD1BE519A400597AF5 /* ViewController.h */,
-				CC861AAE1BE519A400597AF5 /* ViewController.m */,
-				CC861AB01BE519A400597AF5 /* Main.storyboard */,
-				CC861AB31BE519A400597AF5 /* Assets.xcassets */,
-				CC861AB51BE519A400597AF5 /* LaunchScreen.storyboard */,
-				CC861AB81BE519A400597AF5 /* Info.plist */,
+				CCFA48871BE5BCAB0030DEE4 /* Model */,
+				CCFA48881BE5BCB70030DEE4 /* View */,
+				CCFA48891BE5BCBE0030DEE4 /* Controller */,
 				CC861AA71BE519A400597AF5 /* Supporting Files */,
 			);
 			path = "Target-Timer";
@@ -117,6 +112,10 @@
 		CC861AA71BE519A400597AF5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC861AB01BE519A400597AF5 /* Main.storyboard */,
+				CC861AB31BE519A400597AF5 /* Assets.xcassets */,
+				CC861AB51BE519A400597AF5 /* LaunchScreen.storyboard */,
+				CC861AB81BE519A400597AF5 /* Info.plist */,
 				CC861AA81BE519A400597AF5 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +137,39 @@
 				CC861ACE1BE519A400597AF5 /* Info.plist */,
 			);
 			path = "Target-TimerUITests";
+			sourceTree = "<group>";
+		};
+		CCFA48871BE5BCAB0030DEE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CCFA48881BE5BCB70030DEE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CCFA48891BE5BCBE0030DEE4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC861AAD1BE519A400597AF5 /* ViewController.h */,
+				CC861AAE1BE519A400597AF5 /* ViewController.m */,
+				CCFA488A1BE5BCDA0030DEE4 /* AppDelegate */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CCFA488A1BE5BCDA0030DEE4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CC861AAA1BE519A400597AF5 /* AppDelegate.h */,
+				CC861AAB1BE519A400597AF5 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -496,6 +528,7 @@
 				CC861AD31BE519A400597AF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC861AD41BE519A400597AF5 /* Build configuration list for PBXNativeTarget "Target-TimerTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +537,7 @@
 				CC861AD61BE519A400597AF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC861AD71BE519A400597AF5 /* Build configuration list for PBXNativeTarget "Target-TimerUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +546,7 @@
 				CC861AD91BE519A400597AF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
